@@ -1,0 +1,350 @@
+/*!
+ * Start Bootstrap - Modern Business (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+    
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 50%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0;
+}
+#tim_mobie{
+    display: none;
+}
+.menu-focus{
+        margin-top:-20px;}
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    #tim_computer{
+        display: none;        
+    }
+    .menu-focus{
+        margin-top:40px;
+    }
+    #tim_mobie{
+
+        margin-left: 15px;
+        display: block;
+        float: left;
+    }
+
+
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .chitiet .name{
+        width: 130%;
+    }
+  .name{
+    width: 125%;
+  }
+}
+@media (max-width: 760px) {
+  #edit-again-menu #bs-example-navbar-collapse-1{
+    border-top:none;
+    background-color: #F5F5F5;
+    padding-top: 30px;
+    color: #fff;
+  }
+  .navbar-toggle, .navbar-toggle:active{
+    background-color: #0033FF;
+  }
+  nav#edit-again-menu ul li a,nav#edit-again-menu ul li a:hover{
+    color: #fff;
+  }
+  .name{
+    width: 120%;
+  }
+}
+@media (max-width: 640px){
+   .name{
+    width: 100%;
+    left: -100px;
+  }
+}
+@media (max-width: 414px){
+   .name{
+    width: 110%;
+    left: 0px;
+  }
+}
+@media (max-width: 412px){
+      .chitiet .name{
+        width: 120%;
+    }
+   .name{
+    width: 110%;
+    left: -10px;
+  }
+}
+.logo {
+    background-image: url(../../img/logo-ctu.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+}
+span.title{
+    font-weight: bold;
+    font-size: 16px;
+    color: #000;
+    width: 100px; 
+    display: inline-block;
+}
+#edit-again-menu{
+    height: 80px;
+    background-color: #F5F5F5;
+    box-shadow: 1px 1px 9px 1px #000;
+    border:none;
+}
+nav#edit-again-menu ul li a{
+    margin-top: 15px;
+    font-size: 24px;
+    color: #343e3b;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: bold;
+}
+nav#edit-again-menu ul li a:hover{
+    color: #0033FF;
+}
+header#myCarousel{
+    margin-top: 30px;
+}
+.content-top{
+    margin-top: 50px;
+}
+.active a{
+    text-decoration: none;
+}
+
+.news{
+    font: bold italic 30px "PT Serif", serif;
+    padding: 0 10px;
+}
+.text-news{
+    font-family:  "Open Sans Condensed", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+.open-san-con{
+    font-family:  "Open Sans Condensed", sans-serif;
+    font-size: 25px;
+    line-height: 45px;
+}
+.border-img{
+    position: relative;
+    display: block;
+    z-index: 1;
+    height: 200px;
+    overflow: hidden;
+}
+
+.border-img img:hover {
+    transform: scale(1.2);
+}
+.border-img img{
+    -webkit-transition: all 1s;
+    position: absolute;
+    z-index: 100;
+}
+.glyphicon-play{
+    margin-left: 160px;
+    margin-top: 80px;
+    color: #0033FF;
+    z-index: -50;
+}
+.name{
+    text-align: center;
+    padding: 0px;
+    position: relative;
+    z-index: 10000;
+    width: 110%;
+    background-color: #fff;
+    height: 50px;
+    top: 30px;
+    right: 20px;
+    opacity: 0.8;
+    color: #00CCCC;
+}
+.bac-buoc{
+    color: red;
+}
+.close{
+    background-color: #fff;
+}
+.modal-title{
+    color: #fff;
+}
+.modal-header{
+    background-color: #4267b2;
+}
+/*** loader ***/
+
+.blob {
+    width: 2rem;
+    height: 2rem;
+    background: #999999;
+    border-radius: 50%;
+    position: absolute;
+    left: calc(50% - 1rem);
+    top: calc(50% - 1rem);
+    box-shadow: 0 0 1rem rgba(255, 255, 255, 0.25);
+}
+
+.blob-2 { animation: animate-to-2 1.5s infinite; }
+.blob-3 { animation: animate-to-3 1.5s infinite; }
+.blob-1 { animation: animate-to-1 1.5s infinite; }
+.blob-4 { animation: animate-to-4 1.5s infinite; }
+.blob-0 { animation: animate-to-0 1.5s infinite; }
+.blob-5 { animation: animate-to-5 1.5s infinite; }
+
+@keyframes animate-to-2 {
+    25%, 75% { transform: translateX(-1.5rem) scale(0.75); }
+    95% { transform: translateX(0rem) scale(1); }
+}
+
+@keyframes animate-to-3 {
+    25%, 75% { transform: translateX(1.5rem) scale(0.75); }
+    95% { transform: translateX(0rem) scale(1); }
+}
+
+@keyframes animate-to-1 {
+    25% { transform: translateX(-1.5rem) scale(0.75); }
+    50%, 75% { transform: translateX(-4.5rem) scale(0.6); }
+    95% { transform: translateX(0rem) scale(1); }
+}
+
+@keyframes animate-to-4 {
+    25% { transform: translateX(1.5rem) scale(0.75); }
+    50%, 75% { transform: translateX(4.5rem) scale(0.6); }
+    95% { transform: translateX(0rem) scale(1); }
+}
+
+@keyframes animate-to-0 {
+    25% { transform: translateX(-1.5rem) scale(0.75); }
+    50% { transform: translateX(-4.5rem) scale(0.6); }
+    75% { transform: translateX(-7.5rem) scale(0.5); }
+    95% { transform: translateX(0rem) scale(1); }
+}
+
+@keyframes animate-to-5 {
+    25% { transform: translateX(1.5rem) scale(0.75); }
+    50% { transform: translateX(4.5rem) scale(0.6); }
+    75% { transform: translateX(7.5rem) scale(0.5); }
+    95% { transform: translateX(0rem) scale(1); }
+}
+
+/** button tim kiem thiet bi */
+
+    input[type=text].search {
+        display: block;
+        float: right;
+        margin-left: 10px;
+        margin-top: 20px;
+        width:0px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: white;
+        background-image: url('../../img/searchicon.png');
+        background-position: 10px;
+        background-repeat: no-repeat;
+        padding: 5px 10px 5px 30px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+    }
+
+    input[type=text].search:focus {
+        width: 15%;
+    }
+    .chang_title,.modal-title{
+        color: #fff;
+        
+    }
+    .modal-header{
+        background-color: #4267b2;
+    }
+    .close{
+        background-color: #fff;
+    }    
