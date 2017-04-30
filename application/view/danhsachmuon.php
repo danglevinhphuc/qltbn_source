@@ -44,7 +44,13 @@
 					<tr>
 						<td><?php echo $i; ?></td>
 						<td><?php  echo $danhmuon["username"]?></td>
-						<td><?php  echo $danhmuon["tenproject"]?></td>
+						<td><?php  
+							if( $danhmuon["tenproject"] == "KPJ" ){
+								echo "Không cho dự án nào";
+							}else{
+								echo $danhmuon["tenproject"];
+							}
+							?></td>
 						<td><?php  echo $danhmuon["tenthietbi"]?></td>
 						<td><?php  echo $danhmuon["ngaymuon"]?></td>
 						<td ><?php  echo $danhmuon["soluong"]?></td>
